@@ -4,8 +4,9 @@ from PIL import Image
 import numpy as np
 import cv2
 from RealESRGAN import RealESRGAN
-import imghdr
 from flask import Flask, request, jsonify
+import base64
+
 
 app = Flask(__name__)
 

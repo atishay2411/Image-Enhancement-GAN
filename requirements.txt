@@ -6,6 +6,3 @@ torchvision>=0.8.0
 tqdm
 huggingface-hub
 flask
-azureml-core
-zip
-base64
